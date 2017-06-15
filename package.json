@@ -1,0 +1,31 @@
+{
+  "name": "frc-rankings",
+  "version": "0.0.0",
+  "description": "Categorize FRC CA teams",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartlettpear18/frc-rankings.git"
+  },
+  "author": "Joel Bartlett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartlettpear18/frc-rankings/issues"
+  },
+  "homepage": "https://github.com/bartlettpear18/frc-rankings",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "mysql": "^2.13.0",
+    "request": "^2.81.0",
+    "thebluealliance": "^1.2.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
